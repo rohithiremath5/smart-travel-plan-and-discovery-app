@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+@import './tokens.css';
+@import './base.css';
+@import './components.css';
+@import './shell.css';
+@import './foundation.css';
+@import './responsive.css';
+@import './discovery.css';
+@import './trips.css';
+@import './itinerary.css';
+@import './mapping.css';
+@import './ai.css';
+@import './organizer.css';
+
+@import './budget.css';

@@ -1,0 +1,113 @@
+{
+  "purpose": "Contextual destination photography, not a stock library. No endorsement implied.",
+  "photos": [
+    {
+      "key": "kyoto",
+      "id": 3753404,
+      "creator": "Satoshi Hirayama",
+      "source": "https://www.pexels.com/photo/photo-of-alley-during-daytime-3753404/",
+      "match": "Kyoto alley; not each attraction",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "retrieved": "2026-11-04",
+      "modifications": "Resized/compressed JPEG via Pexels delivery; CSS crops to fit.",
+      "files": [
+        {
+          "file": "kyoto-640.jpg",
+          "width": 640,
+          "bytes": 75135,
+          "sha256": "10006a77c679fe43745857d636ff7298b2c46f16bd0fd7757a249155d33de711",
+          "download": "https://images.pexels.com/photos/3753404/pexels-photo-3753404.jpeg?auto=compress&cs=tinysrgb&w=640"
+        },
+        {
+          "file": "kyoto-1280.jpg",
+          "width": 1280,
+          "bytes": 243464,
+          "sha256": "1a305f71725688f7af20852482e9e3e3ddb6b57bf265238a5aa761d8ed1a8736",
+          "download": "https://images.pexels.com/photos/3753404/pexels-photo-3753404.jpeg?auto=compress&cs=tinysrgb&w=1280"
+        }
+      ]
+    },
+    {
+      "key": "lisbon",
+      "id": 30917822,
+      "creator": "Gonzalo Mendiola",
+      "source": "https://www.pexels.com/photo/historic-street-scene-in-central-lisbon-portugal-30917822/",
+      "match": "Central Lisbon street",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "retrieved": "2026-11-04",
+      "modifications": "Resized/compressed JPEG via Pexels delivery; CSS crops to fit.",
+      "files": [
+        {
+          "file": "lisbon-640.jpg",
+          "width": 640,
+          "bytes": 139274,
+          "sha256": "31d047df2047edd2d9e186eb40755dd06bc122905992dd47690d99530f2d1690",
+          "download": "https://images.pexels.com/photos/30917822/pexels-photo-30917822.jpeg?auto=compress&cs=tinysrgb&w=640"
+        },
+        {
+          "file": "lisbon-1280.jpg",
+          "width": 1280,
+          "bytes": 483038,
+          "sha256": "df5388637837726e7bf795b533dc6657113dfdc782b36ee258b3dd2a7090111a",
+          "download": "https://images.pexels.com/photos/30917822/pexels-photo-30917822.jpeg?auto=compress&cs=tinysrgb&w=1280"
+        }
+      ]
+    },
+    {
+      "key": "dolomites",
+      "id": 33244766,
+      "creator": "eberhard grossgasteiger",
+      "source": "https://www.pexels.com/photo/scenic-view-of-lake-and-mountains-in-dolomites-33244766/",
+      "match": "Dolomites regional landscape; exact lake unasserted",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "retrieved": "2026-11-04",
+      "modifications": "Resized/compressed JPEG via Pexels delivery; CSS crops to fit.",
+      "files": [
+        {
+          "file": "dolomites-640.jpg",
+          "width": 640,
+          "bytes": 64085,
+          "sha256": "dddc5976f80e8bc13997c9c566b23a8df3badcb4d0b7e835a357f3c325ecdf40",
+          "download": "https://images.pexels.com/photos/33244766/pexels-photo-33244766.jpeg?auto=compress&cs=tinysrgb&w=640"
+        },
+        {
+          "file": "dolomites-1280.jpg",
+          "width": 1280,
+          "bytes": 250327,
+          "sha256": "6f989d870069a5727a76b61cd41fb88364140078ab4d25fa1324b42fb790a4a6",
+          "download": "https://images.pexels.com/photos/33244766/pexels-photo-33244766.jpeg?auto=compress&cs=tinysrgb&w=1280"
+        }
+      ]
+    },
+    {
+      "key": "bali",
+      "id": 40508694,
+      "creator": "Adit Syahfiar",
+      "source": "https://www.pexels.com/photo/surfer-on-bali-beach-at-sunset-40508694/",
+      "match": "Bali coast; exact beach unasserted; no endorsement",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "retrieved": "2026-11-04",
+      "modifications": "Resized/compressed JPEG via Pexels delivery; CSS crops to fit.",
+      "files": [
+        {
+          "file": "bali-640.jpg",
+          "width": 640,
+          "bytes": 62430,
+          "sha256": "cdd5d3af38d1d7808050f4445cd3c9fb50a760efec08ab6cd255dbe39b00ce04",
+          "download": "https://images.pexels.com/photos/40508694/pexels-photo-40508694.jpeg?auto=compress&cs=tinysrgb&w=640"
+        },
+        {
+          "file": "bali-1280.jpg",
+          "width": 1280,
+          "bytes": 284587,
+          "sha256": "bf9197df502928ed25a88986027b251a9dfccb02f1e2d96ec97ef2302941d840",
+          "download": "https://images.pexels.com/photos/40508694/pexels-photo-40508694.jpeg?auto=compress&cs=tinysrgb&w=1280"
+        }
+      ]
+    }
+  ]
+}

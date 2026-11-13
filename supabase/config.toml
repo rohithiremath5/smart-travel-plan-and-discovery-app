@@ -1,0 +1,6 @@
+project_id = "smart-travel-phase-2"
+
+[functions.discovery]
+enabled = true
+verify_jwt = false
+entrypoint = "./functions/discovery/index.ts"

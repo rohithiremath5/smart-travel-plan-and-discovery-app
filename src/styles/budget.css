@@ -1,0 +1,274 @@
+.budget-page {
+  max-width: 1200px;
+}
+.budget-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+.budget-heading h1 {
+  font-size: clamp(2.8rem, 5vw, 4.25rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  margin: 1rem 0;
+}
+.budget-heading > svg {
+  width: 100px;
+  height: 100px;
+  color: var(--primary);
+  stroke-width: 0.8;
+  flex-shrink: 0;
+}
+.budget-section {
+  padding: 2rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--card);
+  margin: 2rem 0;
+}
+.budget-section h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0 1.5rem;
+}
+.budget-section h3 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+}
+.budget-section .section-heading {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.budget-section label {
+  display: grid;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  gap: 0.6rem;
+  font-size: 0.875rem;
+}
+.budget-section .select,
+.budget-section .input {
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
+}
+.budget-section .select {
+  min-height: 46px;
+  padding: 11px 14px;
+  border: 1px solid var(--input);
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--foreground);
+  font: inherit;
+}
+.budget-section .organizer-check {
+  display: flex;
+}
+.budget-input-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.budget-custom-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+}
+.budget-custom-form label {
+  flex: 1;
+  min-width: 150px;
+}
+.budget-info,
+.budget-warning {
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+}
+.budget-info {
+  background: var(--accent);
+}
+.budget-warning {
+  background: #fff5df;
+  border: 1px solid #d4b578;
+  color: var(--warning);
+}
+.budget-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 20px;
+  margin: 2rem 0;
+  overflow: hidden;
+}
+.budget-stats > div {
+  padding: 1.5rem;
+  border-right: 1px solid var(--border);
+  min-width: 0;
+}
+.budget-stats > div:last-child {
+  border: 0;
+}
+.budget-stats span,
+.budget-stats small {
+  display: block;
+  font-size: 0.8rem;
+}
+.budget-stats strong {
+  display: block;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(1.3rem, 2.6vw, 2.5rem);
+  margin: 0.8rem 0;
+  overflow-wrap: anywhere;
+}
+.budget-breakdown {
+  margin: 1.5rem 0;
+}
+.budget-breakdown > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border);
+  padding: 0.8rem 0;
+}
+.budget-breakdown dd {
+  margin: 0;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.budget-expenses {
+  list-style: none;
+  padding: 0;
+}
+.budget-expenses > li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+  overflow-wrap: anywhere;
+}
+.budget-expenses p {
+  margin: 0.4rem 0;
+}
+.budget-expenses small {
+  display: block;
+  color: var(--muted-foreground);
+}
+.budget-expenses .trip-actions {
+  flex-shrink: 0;
+}
+.budget-save {
+  margin: 1.5rem 0;
+}
+.budget-section details {
+  margin: 1.5rem 0;
+}
+.budget-section summary {
+  padding: 1rem 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+.currency-result {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  overflow-wrap: anywhere;
+}
+.weather-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.weather-day {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem;
+  min-width: 0;
+}
+.weather-day h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  margin: 0.8rem 0;
+}
+.weather-day > svg {
+  color: var(--primary);
+}
+.weather-day p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.weather-day p svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.weather-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.weather-meta p {
+  max-width: 60ch;
+  font-size: 0.85rem;
+}
+@media (max-width: 767px) {
+  .budget-heading > svg {
+    display: none;
+  }
+  .budget-section {
+    padding: 1.25rem;
+  }
+  .budget-input-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem 1rem;
+  }
+  .budget-stats {
+    grid-template-columns: 1fr;
+  }
+  .budget-stats > div {
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+    padding: 1.2rem;
+  }
+  .budget-stats strong {
+    font-size: 2rem;
+    margin: 0.4rem 0;
+  }
+  .weather-grid {
+    grid-template-columns: 1fr;
+  }
+  .budget-expenses > li {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .budget-section .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media (max-width: 399px) {
+  .budget-input-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media print {
+  .print-sheet .budget-breakdown > div {
+    break-inside: avoid;
+  }
+  .print-sheet .budget-breakdown {
+    font-size: 10pt;
+  }
+}

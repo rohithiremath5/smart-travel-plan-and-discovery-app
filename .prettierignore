@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+.cache/
+*.zip
+package-lock.json
+.env
+.env.*
+!.env.example
+# Preserve the historical Phase 0 completion report formatting.
+docs/PHASE_0_REVIEW.md

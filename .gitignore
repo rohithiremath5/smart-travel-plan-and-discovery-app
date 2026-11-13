@@ -1,0 +1,102 @@
+# Smart Travel Plan & Discovery App — public GitHub repository
+# Reviewed against the Phase 9 source/review archive.
+# Keep source code, tests, SQL migrations, package-lock.json, and documentation.
+
+# -----------------------------------------------------------
+# Secrets and machine-specific configuration
+# -----------------------------------------------------------
+.env
+.env.*
+!.env.example
+.envrc
+.direnv/
+.npmrc
+.pypirc
+.netrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials*.json
+service-account*.json
+secrets*.json
+
+# -----------------------------------------------------------
+# Installed dependencies, compiled output, and local caches
+# -----------------------------------------------------------
+node_modules/
+dist/
+build/
+out/
+.vite/
+.cache/
+.turbo/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+.eslintcache
+
+# -----------------------------------------------------------
+# Vitest / Playwright test output (keep tests/ and fixtures!)
+# -----------------------------------------------------------
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# -----------------------------------------------------------
+# Phase review evidence: 444 files in the Phase 9 archive,
+# mostly generated screenshots and verification outputs.
+# Keep docs/PHASE_*.md and docs/*.md as project documentation.
+# Retain the review ZIPs and receipts privately/off GitHub.
+# -----------------------------------------------------------
+docs/review/
+*.zip
+*.zip.tmp-*
+smart-travel-phase-*-review.receipt.json
+
+# -----------------------------------------------------------
+# Local Supabase CLI state (keep supabase/functions and migrations)
+# -----------------------------------------------------------
+supabase/.temp/
+supabase/.branches/
+supabase/.profiles/
+supabase/.cache/
+.supabase/
+
+# -----------------------------------------------------------
+# Private exports, saved trips, and local database files
+# -----------------------------------------------------------
+private-uploads/
+private-data/
+local-data/
+backups/
+exports/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# -----------------------------------------------------------
+# Logs, temporary files, operating system and editor state
+# -----------------------------------------------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
